@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-z4n=k82+12qg8)z*$uso%(ic0!ik4^y3q-2s3=#!s-z+abu$zc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-sampetchey-smam-csamoaetm2.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-sampetchey-smam-csamoaetm2.us2.codeanyapp.com', 'localhost']
 
 
 # Application definition
@@ -92,7 +92,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/success'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'smam.wsgi.application'
 
